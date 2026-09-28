@@ -45,8 +45,9 @@
       capsule_slot_1: !type:ContainerSlot
       capsule_slot_2: !type:ContainerSlot
   - type: Damageable
+    damageModifierSet: SteelMod
+  - type: Injurable
     damageContainer: StructuralInorganic
-    damageModifierSet: Metallic
   - type: Destructible
     thresholds:
     - trigger:

@@ -13,7 +13,7 @@ using Robust.Shared.Timing;
 
 namespace Content.Server._ST14.ST14Resources;
 
-public sealed class ST14ResourceExtractorSystem : SharedST14ResourceExtractorSystem
+public sealed partial class ST14ResourceExtractorSystem : SharedST14ResourceExtractorSystem
 {
     [Dependency] private IGameTiming _timing = default!;
     [Dependency] private IRobustRandom _random = default!;

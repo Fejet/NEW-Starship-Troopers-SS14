@@ -3,7 +3,7 @@ using Content.Shared.Containers.ItemSlots;
 
 namespace Content.Shared._ST14.ST14Resources.EntitySystems;
 
-public abstract class SharedST14ResourceExtractorSystem : EntitySystem
+public abstract partial class SharedST14ResourceExtractorSystem : EntitySystem
 {
     [Dependency] protected ItemSlotsSystem ItemSlots = default!;
     [Dependency] protected ST14ResourceCapsuleSystem Capsules = default!;

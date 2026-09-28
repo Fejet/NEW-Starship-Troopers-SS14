@@ -5,7 +5,7 @@ using Robust.Shared.Prototypes;
 
 namespace Content.Server._ST14.ST14Resources;
 
-public sealed class ST14ResourceEconomySystem : EntitySystem
+public sealed partial class ST14ResourceEconomySystem : EntitySystem
 {
     private const float MinDifficulty = 0.01f;
 

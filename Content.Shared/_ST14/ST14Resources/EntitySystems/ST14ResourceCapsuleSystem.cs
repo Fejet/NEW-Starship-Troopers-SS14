@@ -5,10 +5,10 @@ using Robust.Shared.Prototypes;
 
 namespace Content.Shared._ST14.ST14Resources.EntitySystems;
 
-public sealed class ST14ResourceCapsuleSystem : EntitySystem
+public sealed partial class ST14ResourceCapsuleSystem : EntitySystem
 {
-    [Dependency] private readonly IPrototypeManager _prototype = default!;
-    [Dependency] private readonly SharedAppearanceSystem _appearance = default!;
+    [Dependency] private IPrototypeManager _prototype = default!;
+    [Dependency] private SharedAppearanceSystem _appearance = default!;
 
     public override void Initialize()
     {

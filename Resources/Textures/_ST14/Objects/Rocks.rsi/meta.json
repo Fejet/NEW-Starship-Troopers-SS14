@@ -8,8 +8,8 @@
   },
   "states": [
     {
-      "name": "terrain-rocks-rockFormation1",
-        "directions": 4
+      "name": "terrain-rocks-rockFormation1"
     }
+
   ]
 }
